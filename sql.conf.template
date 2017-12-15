@@ -1,0 +1,12 @@
+#user	user
+#password	password
+#host	database_server
+#port	1521
+#sid	ORCL
+
+#dir	C:/path/to/dump/01
+#relative-dir	dump/01
+
+#input-encoding	utf8
+#output-encoding	utf8
+#stdout-encoding	windows-31j
