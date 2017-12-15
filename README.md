@@ -26,7 +26,7 @@ SQL を実行する際には、最低限接続ユーザ・接続先ホストの�
 ### 事前準備
 
   1. [このあたりの説明](https://blogs.oracle.com/dev2dev/get-oracle-jdbc-drivers-and-ucp-from-oracle-maven-repository-without-ides) を
-     参考にして settings.xml, settings-security.xml を編集する。
+     参考にして settings.xml, settings-security.xml を編集する (m2 配下にテンプレートがあるのでこれをコピーして使うとよい)。
 
   2. eclipse, またはコンソールで、`mvn package` で sql.jar をビルドして sql.cmd のディレクトリ (このディレクトリ) にコピーする。
   3. sql.conf.template を sql.conf という名前のファイルにコピーする。
